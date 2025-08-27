@@ -1,0 +1,67 @@
+descriptions:
+  - key: base
+    description: |
+      LiveCodeBench Pro (Mini) - external judge.
+
+      The agent must create a C++17 solution file at /app/main.cpp.
+      This task does not include local test cases. Instead, the test harness:
+        1) POSTs the code to the external judge (/submit) to get a sid,
+        2) polls GET /result/{sid}?short=1 until status == "done",
+        3) passes only if the judge returns passed == true.
+
+      Environment variables (overridable at runtime):
+        - BASE_URL: judge base URL (default http://38.80.122.117:8081)
+        - PID: problem id (default 2104F)
+        - LANG: language (default cpp)
+        - CODE_PATH: path to code (default /app/main.cpp)
+        - JUDGE_TIMEOUT_SECS: poll timeout seconds (default 120)
+  - key: problem
+    description: |
+      For each integer $x$ from $1$ to $n$, we will form the string $S(x)$ according to the following rules:
+
+      - compute $(x+1)$;
+      - write $x$ and $x+1$ next to each other in the decimal system without separators and leading zeros;
+      - in the resulting string, sort all digits in non-decreasing order.
+
+      For example, the string $S(139)$ is 011349 (before sorting the digits, it is 139140). The string $S(99)$ is 00199.
+
+      Your task is to count the number of distinct strings among $S(1), S(2), \dots, S(n)$.
+
+      ### Input
+
+      The first line contains one integer $t$ ($1 \le t \le 10^4$) -- the number of test cases.
+
+      Each test case consists of one line containing a single integer $n$ ($1 \le n \le 10^{9} - 2$).
+
+      ### Output
+
+      For each test case, output a single integer -- the number of distinct strings among $S(1), S(2), \dots, S(n)$.
+
+      ### Example
+
+      #### Input #1
+
+      ```
+
+      2
+
+      42
+
+      1337
+
+      ```
+
+      #### Output #1
+
+      ```
+      42
+      948
+      ```
+
+instruction: base
+author_email: shz060@ucsd.edu
+author: LiveCodeBench Pro Team
+difficulty: medium
+tags: []
+max_agent_timeout_sec: 300
+max_test_timeout_sec: 180

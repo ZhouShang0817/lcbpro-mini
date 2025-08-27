@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !tasks/
+!tasks/**
 
 # Within tasks/, ignore log files and temporary files
 tasks/**/*.log

@@ -1,0 +1,122 @@
+descriptions:
+  - key: base
+    description: |
+      LiveCodeBench Pro (Mini) - external judge.
+
+      The agent must create a C++17 solution file at /app/main.cpp.
+      This task does not include local test cases. Instead, the test harness:
+        1) POSTs the code to the external judge (/submit) to get a sid,
+        2) polls GET /result/{sid}?short=1 until status == "done",
+        3) passes only if the judge returns passed == true.
+
+      Environment variables (overridable at runtime):
+        - BASE_URL: judge base URL (default http://38.80.122.117:8081)
+        - PID: problem id (default 2086F)
+        - LANG: language (default cpp)
+        - CODE_PATH: path to code (default /app/main.cpp)
+        - JUDGE_TIMEOUT_SECS: poll timeout seconds (default 120)
+  - key: problem
+    description: |
+      This is an interactive problem.
+
+      The jury has a string $s$ consisting of lowercase Latin letters. The following constraints apply to this string:
+
+      - the string has an odd length that does not exceed $99$;
+      - the string consists only of the characters "a" and "b".
+
+      There is also a string $t$, which is initially empty. Then, $|s|$ steps happen. During the $i$-th step, the following events occur:
+
+      - first, the jury tells you the character $s_i$ and appends it to the end of the string $t$;
+      - then, you may swap any two characters in $t$, or do nothing.
+
+      Your task is to ensure that after the $|s|$-th step, the string $t$ is a palindrome.
+
+      ### Interaction
+
+      The interactive interaction starts immediately.
+
+      During each step, your program will receive one character -- the next character of the string $s$ or "0" (zero) if the string has ended. If the character "0" is received, your program must terminate immediately.
+
+      After receiving $s_{i}$, you must output the positions of the characters to be swapped, that is, two integers $l$ and $r$ ($1 \le l,r \le i$) or, if you do not want to swap characters, then "0 0".
+
+      If your program makes an invalid operation, for example, by trying to swap characters from non-existing positions, or the resulting string $t$ is not a palindrome, the jury program will print one character "X" on a separate line. If your program receives "X" as the response, it should terminate immediately; otherwise, the verdict of your submission will be undefined.
+
+      The interactor in this problem is not adaptive, meaning that the string $s$ does not change during the interaction.
+
+      After each output request, do not forget to output a newline and flush the output buffer. Otherwise, you will receive a verdict of "Idleness limit exceeded". To do this, use:
+
+      - fflush(stdout) or cout.flush() in C++;
+      - System.out.flush() in Java;
+      - sys.stdout.flush() in Python;
+      - refer to the documentation for other languages.
+
+      Hack format
+
+      For hacks, use the following format.
+
+      The first line should contain a single integer $|s|$ -- the length of the string $s$.
+
+      The second line should contain the $s$ itself ($1 \le |s| \le 99, |s| \bmod 2 = 1$), consisting of lowercase Latin letters "a" and "b".
+
+      ### Examples
+
+      #### Input #1
+
+      ```
+      a
+
+      a
+
+      b
+
+      0```
+
+      #### Output #1
+
+      ```
+
+      0 0
+
+      1 2
+
+      2 3
+      ```
+
+      #### Input #2
+
+      ```
+      a
+
+      a
+
+      b
+
+      a
+
+      b
+
+      0
+      ```
+
+      #### Output #2
+
+      ```
+
+      0 0
+
+      2 1
+
+      3 2
+
+      4 4
+
+      4 5
+      ```
+
+instruction: base
+author_email: shz060@ucsd.edu
+author: LiveCodeBench Pro Team
+difficulty: medium
+tags: []
+max_agent_timeout_sec: 300
+max_test_timeout_sec: 180
