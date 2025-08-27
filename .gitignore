@@ -10,3 +10,4 @@
 # Within tasks/, ignore log files and temporary files
 tasks/**/*.log
 tasks/**/*.cast
+tasks/**/__pycache__/

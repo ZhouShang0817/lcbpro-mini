@@ -9,9 +9,9 @@ For each task, the agent writes `/app/main.cpp`. The harness posts the code to t
 ## Difficulty Distribution
 
 Tasks are categorized by Codeforces rating:
-- **Easy**: Rating ≤ 2000 (basic algorithms, implementation)
-- **Medium**: Rating 2000-3000 (data structures, graph algorithms)  
-- **Hard**: Rating > 3000 (advanced algorithms, complex mathematics)
+- **Easy**: Rating ≤ 2000
+- **Medium**: Rating 2100-3000
+- **Hard**: Rating > 3000
 
 ## Run
 ```bash
@@ -20,18 +20,6 @@ cd lcbpro-mini
 
 # Run a single task
 BASE_URL=http://38.80.122.117:8081 tb run --agent oracle --task-id lcbpro-2026a --livestream
-
-# Run multiple tasks
-tb run --agent oracle --task-pattern "lcbpro-212*" --livestream
-```
-
-## Generate Tasks
-```bash
-# Generate all 599 tasks
-python3 generate_tasks.py benchmark_config.json
-
-# Generate single task
-python3 generate_tasks.py single_task_config.json
 ```
 
 Environment variables: `BASE_URL`, `PID`, `LANG`, `CODE_PATH`, `JUDGE_TIMEOUT_SECS`.
