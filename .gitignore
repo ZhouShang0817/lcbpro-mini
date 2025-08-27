@@ -1,92 +1,11 @@
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
+# Ignore everything by default
+*
 
-# Virtual environments
-venv/
-env/
-.env
+# But don't ignore these files and directories
+!.gitignore
+!README.md
+!tasks/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Terminal-bench runs
-runs/
-
-# Docker
-.dockerignore
-
-# Logs
-*.log
-*.cast
-
-# Task-specific logs
-tasks/*/logs*.log
-tasks/*/logs*.cast
-
-# Temporary files
-tmp/
-temp/
-
-# Task-specific temporary directories
-tasks/*/tmp/
-tasks/*/.pytest_cache/
-tasks/*/tests/__pycache__/
-tasks/*/tests/.pytest_cache/
-
-# Temporary configuration files
-*_config.json
-test_*.json
-regen_*.json
-latest_*.json
-all_tasks.json
-regenerate_*.json
-example_config.json
-
-# Microsoft Office temporary files
-~$*
-*.tmp
-
-# C++ compiled files
-*.o
-*.exe
-*.out
-a.out
-main
-solution
-
-# Backup files
-*~
-*.bak
-*.backup
-
-# Node.js (if any)
-node_modules/
-npm-debug.log*
-
-# Build directories
-build/
-dist/
-*.egg-info/
-
-# Main directory files (keep only tasks/, README.md, .gitignore)
-README_templates.md
-benchmark_config.json
-example_config.json
-single_task_config.json
-generate_benchmark.py
-generate_tasks.py
-ids.txt
-problem_statements_all.jsonl
-std/
-templates/
-runs/
+# Within tasks/, ignore log files and temporary files
+tasks/**/*.log
+tasks/**/*.cast
