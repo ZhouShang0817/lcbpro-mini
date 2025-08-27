@@ -77,3 +77,16 @@ npm-debug.log*
 build/
 dist/
 *.egg-info/
+
+# Main directory files (keep only tasks/, README.md, .gitignore)
+README_templates.md
+benchmark_config.json
+example_config.json
+single_task_config.json
+generate_benchmark.py
+generate_tasks.py
+ids.txt
+problem_statements_all.jsonl
+std/
+templates/
+runs/

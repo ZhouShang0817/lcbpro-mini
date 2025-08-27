@@ -1,6 +1,6 @@
 # LiveCodeBench Pro Mini (599 Tasks)
 
-Author: Shang Zhou <shz060@ucsd.edu>
+Author: LiveCodeBench Pro Team <shz060@ucsd.edu>
 
 This dataset contains 599 competitive programming tasks that submit code to an external judge. Tasks range from lcbpro-1983a to lcbpro-2121h, covering Codeforces problems from contests 1983-2121.
 
