@@ -1,0 +1,94 @@
+descriptions:
+  - key: base
+    description: |
+      LiveCodeBench Pro (Mini) - external judge.
+
+      The agent must create a C++17 solution file at /app/main.cpp.
+      This task does not include local test cases. Instead, the test harness:
+        1) POSTs the code to the external judge (/submit) to get a sid,
+        2) polls GET /result/{sid}?short=1 until status == "done",
+        3) passes only if the judge returns passed == true.
+
+      Environment variables (overridable at runtime):
+        - BASE_URL: judge base URL (default http://38.80.122.117:8081)
+        - PID: problem id (default 1991F)
+        - LANG: language (default cpp)
+        - CODE_PATH: path to code (default /app/main.cpp)
+        - JUDGE_TIMEOUT_SECS: poll timeout seconds (default 120)
+  - key: problem
+    description: |
+      You are given $n$ sticks, numbered from $1$ to $n$. The length of the $i$-th stick is $a_i$.
+
+      You need to answer $q$ queries. In each query, you are given two integers $l$ and $r$ ($1 \le l < r \le n$, $r - l + 1 \ge 6$). Determine whether it is possible to choose $6$ distinct sticks from the sticks numbered $l$ to $r$, to form $2$ non-degenerate triangles$^{\text{∗}}$.
+
+      $^{\text{∗}}$A triangle with side lengths $a$, $b$, and $c$ is called non-degenerate if:
+
+      - $a < b + c$,
+      - $b < a + c$, and
+      - $c < a + b$.
+
+      ### Input
+
+      The first line contains two integers $n$ and $q$ ($6 \le n \le 10^5$, $1 \le q \le 10^5$) -- the number of sticks and the number of queries respectively.
+
+      The second line contains $n$ integers $a_1, a_2, \ldots, a_n$ ($1 \le a_i \le 10^9$) -- $a_i$ denotes the length of the $i$-th stick.
+
+      Each of the following $q$ lines contains two integers $l$ and $r$ ($1 \le l < r \le n$, $r - l + 1 \ge 6$) -- the parameters of each query.
+
+      ### Output
+
+      For each query, output "YES" (without quotes) if it is possible to form $2$ triangles, and "NO" (without quotes) otherwise.
+
+      You can output the answer in any case (upper or lower). For example, the strings "yEs", "yes", "Yes", and "YES" will be recognized as positive responses.
+
+      ### Example
+
+      #### Input #1
+
+      ```
+
+      10 5
+
+      5 2 2 10 4 10 6 1 5 3
+
+      1 6
+
+      2 7
+
+      2 8
+
+      5 10
+
+      4 10
+
+      ```
+
+      #### Output #1
+
+      ```
+      YES
+      NO
+      YES
+      NO
+      YES
+      ```
+
+      ### Note
+
+      In the first query, the lengths of the sticks are $[5, 2, 2, 10, 4, 10]$. Two sets of sticks $[2, 4, 5]$ and $[2, 10, 10]$ can be selected to form $2$ non-degenerate triangles.
+
+      In the second query, the lengths of the sticks are $[2, 2, 10, 4, 10, 6]$. It can be shown that it is impossible to form $2$ non-degenerate triangles.
+
+      In the third query, the lengths of the sticks are $[2, 2, 10, 4, 10, 6, 1]$. Two sets of sticks $[1, 2, 2]$ and $[4, 10, 10]$ can be selected to form $2$ non-degenerate triangles.
+
+      In the fourth query, the lengths of the sticks are $[4, 10, 6, 1, 5, 3]$. It can be shown that it is impossible to form $2$ non-degenerate triangles.
+
+      In the fifth query, the lengths of the sticks are $[10, 4, 10, 6, 1, 5, 3]$. Two sets of sticks $[1, 10, 10]$ and $[3, 4, 5]$ can be selected to form $2$ non-degenerate triangles.
+
+instruction: base
+author_email: shz060@ucsd.edu
+author: LiveCodeBench Pro Team
+difficulty: medium
+tags: []
+max_agent_timeout_sec: 300
+max_test_timeout_sec: 180

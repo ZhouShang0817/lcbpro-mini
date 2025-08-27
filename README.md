@@ -1,21 +1,37 @@
-# LiveCodeBench Pro Mini (2 Tasks) — Scheme A (single-container + external judge)
+# LiveCodeBench Pro Mini (599 Tasks)
 
 Author: Shang Zhou <shz060@ucsd.edu>
 
-This mini dataset contains two tasks that submit code to an external judge (no local test cases).
-- `tasks/lcbpro-2121f` (PID=2121F, C++)
-- `tasks/lcbpro-2121e` (PID=2121E, C++)
+This dataset contains 599 competitive programming tasks that submit code to an external judge. Tasks range from lcbpro-1983a to lcbpro-2121h, covering Codeforces problems from contests 1983-2121.
 
-For each task, the agent writes `/app/main.cpp`. The harness posts the code to the judge and
-polls `GET /result/{sid}?short=1`. The task passes if and only if the judge returns `passed=true`.
+For each task, the agent writes `/app/main.cpp`. The harness posts the code to the judge and polls `GET /result/{sid}?short=1`. The task passes if the judge returns `passed=true`.
+
+## Difficulty Distribution
+
+Tasks are categorized by Codeforces rating:
+- **Easy**: Rating ≤ 2000 (basic algorithms, implementation)
+- **Medium**: Rating 2000-3000 (data structures, graph algorithms)  
+- **Hard**: Rating > 3000 (advanced algorithms, complex mathematics)
 
 ## Run
 ```bash
 pip install -U terminal-bench
-cd livecodebench-pro-mini-2tasks-with-statements
-BASE_URL=http://38.80.122.117:8081 tb run --agent oracle --task-id lcbpro-2121f --livestream
-BASE_URL=http://38.80.122.117:8081 tb run --agent oracle --task-id lcbpro-2121e --livestream
+cd lcbpro-mini
+
+# Run a single task
+BASE_URL=http://38.80.122.117:8081 tb run --agent oracle --task-id lcbpro-2026a --livestream
+
+# Run multiple tasks
+tb run --agent oracle --task-pattern "lcbpro-212*" --livestream
 ```
 
-You may override via env vars: `BASE_URL`, `PID`, `LANG`, `CODE_PATH`, `JUDGE_TIMEOUT_SECS`.
-For fully offline/reproducible runs, consider a multi-container task with a local judge.
+## Generate Tasks
+```bash
+# Generate all 599 tasks
+python3 generate_tasks.py benchmark_config.json
+
+# Generate single task
+python3 generate_tasks.py single_task_config.json
+```
+
+Environment variables: `BASE_URL`, `PID`, `LANG`, `CODE_PATH`, `JUDGE_TIMEOUT_SECS`.
