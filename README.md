@@ -19,6 +19,9 @@ pip install -U terminal-bench
 cd lcbpro-mini
 
 # Run a single task
+BASE_URL=http://38.80.122.117:8081 tb run --agent oracle --task-id lcbpro-2026a
+
+# Run with live debugging (optional)
 BASE_URL=http://38.80.122.117:8081 tb run --agent oracle --task-id lcbpro-2026a --livestream
 ```
 

@@ -6,6 +6,8 @@
 !README.md
 !tasks/
 !tasks/**
+!templates/
+!templates/**
 
 # Within tasks/, ignore log files and temporary files
 tasks/**/*.log
