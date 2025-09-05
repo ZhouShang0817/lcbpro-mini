@@ -30,4 +30,5 @@ int main() {
         cout << min_lights << " " << max_lights << endl;
     }
     return 0;
-}EOF
+}
+EOF

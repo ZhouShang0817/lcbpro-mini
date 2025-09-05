@@ -25,4 +25,5 @@ int main() {
         int perimeter = 2 * (width + height);
         cout << perimeter << endl;
     }
-}EOF
+}
+EOF

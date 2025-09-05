@@ -26,4 +26,5 @@ signed main()
 		}
 		cout << cnt + minn << endl;
 	}
-}EOF
+}
+EOF

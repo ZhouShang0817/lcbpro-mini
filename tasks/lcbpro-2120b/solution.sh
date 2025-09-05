@@ -36,4 +36,5 @@ int main() {
         cout << potted << endl;
     }
     return 0;
-}EOF
+}
+EOF

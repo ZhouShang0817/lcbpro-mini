@@ -31,4 +31,5 @@ int main(){
         cout << dp[0] << "\n";
     }
     return 0;
-}EOF
+}
+EOF

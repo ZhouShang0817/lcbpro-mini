@@ -54,4 +54,5 @@ int main() {
         cout << suneet_wins_count << endl;
     }
     return 0;
-}EOF
+}
+EOF

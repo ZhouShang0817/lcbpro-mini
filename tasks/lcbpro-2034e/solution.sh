@@ -169,4 +169,5 @@ int main()
         solveOne(n, k);
     }
     return 0;
-}EOF
+}
+EOF

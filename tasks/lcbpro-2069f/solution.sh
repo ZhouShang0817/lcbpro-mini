@@ -225,4 +225,5 @@ int main(){
         cout << ans[i] << "\n";
     }
     return 0;
-}EOF
+}
+EOF

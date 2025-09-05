@@ -41,4 +41,5 @@ int main() {
     cin.tie(nullptr);
     solve();
     return 0;
-}EOF
+}
+EOF

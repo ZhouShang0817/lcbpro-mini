@@ -26,4 +26,5 @@ int main() {
         cout << min_perimeter << endl;
     }
     return 0;
-}EOF
+}
+EOF

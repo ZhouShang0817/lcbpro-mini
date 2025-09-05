@@ -41,4 +41,5 @@ int main()
         cout << (int)round(2*(L - S + A[0])) << endl;
     }
     return 0;
-}EOF
+}
+EOF

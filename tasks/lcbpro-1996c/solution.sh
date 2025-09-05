@@ -32,4 +32,5 @@ int main() {
 	while (t--) {
 		solve();
 	}
-}EOF
+}
+EOF

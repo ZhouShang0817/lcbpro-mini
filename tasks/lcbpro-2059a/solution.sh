@@ -28,4 +28,5 @@ int main() {
         cout << (sums.size() >= 3 ? "YES" : "NO") << endl;
     }
     return 0;
-}EOF
+}
+EOF

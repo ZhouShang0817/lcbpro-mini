@@ -28,6 +28,7 @@ signed main(){
 			for(int i=0;i+x<=v;i++)f[i]=qry(i,i+x);
 			for(int i=0;i+x<=v;i++)upd(i,i+x,f[i]+val);
 		}
-		for(int i=1;i<=v;i++)cout<<qry(v,i)<<' ';cout<<'\n';
+		for(int i=1;i<=v;i++)cout<<qry(v,i)<<' ';cout<<endl;
 	}
-}EOF
+}
+EOF

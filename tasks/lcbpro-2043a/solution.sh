@@ -34,4 +34,5 @@ int main() {
         cout << getMaxCoins(n) << endl;
     }
     return 0;
-}EOF
+}
+EOF

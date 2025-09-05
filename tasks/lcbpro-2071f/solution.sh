@@ -142,4 +142,5 @@ int32_t main() {
         }
         cout << l << '\n';
     }
-}EOF
+}
+EOF

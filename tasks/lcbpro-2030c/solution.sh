@@ -29,4 +29,5 @@ int main() {
         cout << (aliceWins ? "YES\n" : "NO\n");
     }
     return 0;
-}EOF
+}
+EOF

@@ -95,4 +95,5 @@ int main(){
     inv[i]=mod-1ll*inv[mod%i]*(mod/i)%mod;
     int T;scanf("%d",&T);while(T--)sol();
     return 0;
-}EOF
+}
+EOF

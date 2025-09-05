@@ -117,4 +117,5 @@ int main() {
         cout << N - max_size << "\n";
     }
     return 0;
-}EOF
+}
+EOF

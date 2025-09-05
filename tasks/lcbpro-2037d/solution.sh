@@ -86,4 +86,5 @@ int main(){
             cout << "-1\n";
         }
     }
-}EOF
+}
+EOF

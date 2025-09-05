@@ -136,4 +136,5 @@ int main() {
         if (ans == LNF) cout << -1 << endl;
         else cout << ans + sum_a << endl;
     }
-}EOF
+}
+EOF

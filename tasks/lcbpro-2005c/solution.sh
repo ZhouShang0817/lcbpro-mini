@@ -161,4 +161,5 @@ int main() {
         cout << max_overall_score << "\n";
     }
     return 0;
-}EOF
+}
+EOF

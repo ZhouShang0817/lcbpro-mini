@@ -31,4 +31,5 @@ int main() {
         cout << power(2, k[i]) << endl;
     }
     return 0;
-}EOF
+}
+EOF

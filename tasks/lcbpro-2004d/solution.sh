@@ -39,4 +39,5 @@ int main(){
             cout<< (ans==2e9 ? -1 :ans)<<endl;
         }
     }
-}EOF
+}
+EOF

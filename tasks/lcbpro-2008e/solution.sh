@@ -114,4 +114,5 @@ int main(){
             cout << min_changes << "\n";
         }
     }
-}EOF
+}
+EOF

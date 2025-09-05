@@ -86,4 +86,5 @@ signed main() {
 	}
 	printf("%lld\n",(ans+MOD)%MOD);
 	return 0;
-}EOF
+}
+EOF

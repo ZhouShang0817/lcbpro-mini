@@ -112,4 +112,5 @@ int main(){
         long long answer = max(option1, option2);
         cout << answer << "\n";
     }
-}EOF
+}
+EOF

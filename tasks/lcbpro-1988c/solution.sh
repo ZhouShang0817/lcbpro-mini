@@ -33,4 +33,5 @@ signed main(){
         }
         cout << n << endl;
     }
-}EOF
+}
+EOF

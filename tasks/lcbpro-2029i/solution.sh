@@ -46,4 +46,5 @@ int main()
 		for(int i=1;i<=m;++i)printf("%lld ",(ll)(ans[i]/n));putchar(10);
 	}
 	fclose(stdin);fclose(stdout);return 0;
-}EOF
+}
+EOF

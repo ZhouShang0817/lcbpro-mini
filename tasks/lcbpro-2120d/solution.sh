@@ -73,4 +73,5 @@ int main(){
         cout << n_mod << " " << m_val << "\n";
     }
     return 0;
-}EOF
+}
+EOF

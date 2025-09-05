@@ -29,4 +29,5 @@ int main(){
 		for(i=0;i<(1<<c);i++) p[i]=0;
 	}
 	return 0;
-}EOF
+}
+EOF

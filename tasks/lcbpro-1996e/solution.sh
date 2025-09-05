@@ -96,4 +96,5 @@ int main() {
         cout << (total_sum % MOD + MOD) % MOD << "\n";
     }
     return 0;
-}EOF
+}
+EOF

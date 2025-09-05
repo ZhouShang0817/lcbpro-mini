@@ -174,4 +174,5 @@ void addedge(TY u,TY v){
 		FOR(i,1,n)if(s[i]=='1')qw(ar[i]-n,' ');
 		putchar('\n');findans();
 	}return 0;
-}EOF
+}
+EOF

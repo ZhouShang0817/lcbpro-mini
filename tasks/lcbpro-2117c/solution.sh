@@ -100,4 +100,5 @@ int main(){
         cout << segments << "\n";
     }
     return 0;
-}EOF
+}
+EOF

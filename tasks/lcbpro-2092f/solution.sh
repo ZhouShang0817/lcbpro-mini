@@ -76,4 +76,5 @@ signed main() {
     while (t--) {
         solve();
     }
-}EOF
+}
+EOF

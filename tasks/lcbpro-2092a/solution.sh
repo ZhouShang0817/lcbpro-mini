@@ -22,4 +22,5 @@ int main() {
         cout << (max_val - min_val) << endl;
     }
     return 0;
-}EOF
+}
+EOF

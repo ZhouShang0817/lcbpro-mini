@@ -118,4 +118,5 @@ int main() {
         std::cout << "\n";
     }
     return 0;
-}EOF
+}
+EOF

@@ -51,4 +51,5 @@ int main() {
     
     // Return 0 to indicate successful program execution.
     return 0;
-}EOF
+}
+EOF

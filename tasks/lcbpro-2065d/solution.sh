@@ -50,4 +50,5 @@ int main(){
         // Output the score for the current test case
         cout << score << "\n";
     }
-}EOF
+}
+EOF

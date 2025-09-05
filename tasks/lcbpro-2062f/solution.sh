@@ -50,7 +50,8 @@ int main(){
 			}
 		}
 		for(i=2;i<=n;i++)cout<<ans[i]<<' ';
-		cout<<'\n';
+		cout<<endl;
 	}
 	return 0;
-}EOF
+}
+EOF

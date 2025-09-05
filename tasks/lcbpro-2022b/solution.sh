@@ -26,4 +26,5 @@ int main(){
         long long ans = max(customers_needed, max_cars);
         cout << ans << "\n";
     }
-}EOF
+}
+EOF

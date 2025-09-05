@@ -50,4 +50,5 @@ int main() {
         cout << n + add << '\n';
     }
     return 0;
-}EOF
+}
+EOF

@@ -74,4 +74,5 @@ int main()
         trees[i % 4].add(p[i], 1);
     }
     cout << ans << endl;
-}EOF
+}
+EOF

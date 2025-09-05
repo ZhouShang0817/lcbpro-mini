@@ -89,4 +89,5 @@ int main()
     cin>>tt;
     while(tt--) solve();
     return 0;
-}EOF
+}
+EOF

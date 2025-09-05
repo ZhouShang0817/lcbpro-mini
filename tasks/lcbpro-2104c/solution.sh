@@ -94,4 +94,5 @@ int main() {
         cout << solve() << endl;
     }
     return 0;
-}EOF
+}
+EOF

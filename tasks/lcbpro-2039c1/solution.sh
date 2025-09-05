@@ -32,4 +32,5 @@ int main() {
         cout << count << endl;
     }
     return 0;
-}EOF
+}
+EOF

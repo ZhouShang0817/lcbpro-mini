@@ -116,4 +116,5 @@ int main(){
 		if(res) cout << "Yes\n";
 		else cout << "No\n";
 	}
-}EOF
+}
+EOF

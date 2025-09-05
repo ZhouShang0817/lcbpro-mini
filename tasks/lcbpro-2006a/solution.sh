@@ -84,4 +84,5 @@ cin.tie(nullptr);
     solve();
   }
   
-}EOF
+}
+EOF

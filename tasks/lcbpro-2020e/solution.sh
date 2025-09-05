@@ -191,4 +191,5 @@ int main() {
         std::cout << total_expected_value << "\n";
     }
     return 0;
-}EOF
+}
+EOF

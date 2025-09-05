@@ -164,7 +164,8 @@ int main(){
 		}
 		ans=0;
 		for(j=1;j<(1<<n);j++)ans=(ans+dpvl2[n][j])%mod;
-		cout<<ans<<'\n';
+		cout<<ans<<endl;
 	}
 	return 0;
-}EOF
+}
+EOF

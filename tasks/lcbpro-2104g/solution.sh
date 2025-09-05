@@ -192,4 +192,5 @@ int main(){
         cout << ans_arr[i] << "\n";
     }
     return 0;
-}EOF
+}
+EOF

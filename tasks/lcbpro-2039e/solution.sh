@@ -45,4 +45,5 @@ int main(){
         cout << f[n] << "\n";
     }
     return 0;
-}EOF
+}
+EOF

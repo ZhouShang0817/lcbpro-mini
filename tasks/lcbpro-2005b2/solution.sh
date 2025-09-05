@@ -26,4 +26,5 @@ int main(){
     cin.tie(0);
     cin>>t;
     while(t--) solve();
-}EOF
+}
+EOF

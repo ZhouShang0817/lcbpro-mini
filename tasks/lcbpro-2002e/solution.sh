@@ -28,8 +28,7 @@ void solve()
         ans=max(ans,a);
         cout<<ans<<' ';
     }
-    cout<<'
-';
+    cout<<endl;
 }
 int main()
 {
@@ -38,4 +37,5 @@ int main()
     cin>>tt;
     while(tt--) solve();
     return 0;
-}EOF
+}
+EOF

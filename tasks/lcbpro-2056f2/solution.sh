@@ -49,4 +49,5 @@ signed main() {
     while(ttt--) {
         solve();
     }
-}EOF
+}
+EOF

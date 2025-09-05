@@ -62,4 +62,5 @@ int main(){
         }
         cout << s_max << " " << s_min << "\n";
     }
-}EOF
+}
+EOF

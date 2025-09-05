@@ -212,4 +212,5 @@ int main() {
         std::cout << N_good << "\n";
     }
     return 0;
-}EOF
+}
+EOF

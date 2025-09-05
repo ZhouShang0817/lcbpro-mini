@@ -221,4 +221,5 @@ int main() {
         cout << count_r - count_l_minus_1 << "\n";
     }
     return 0;
-}EOF
+}
+EOF

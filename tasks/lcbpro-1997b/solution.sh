@@ -73,4 +73,5 @@ int main() {
     }
     
     return 0; // Indicate successful execution of the program
-}EOF
+}
+EOF

@@ -36,4 +36,5 @@ int main() {
         cout << a << " " << b << " " << c << "\n";
     }
     return 0;
-}EOF
+}
+EOF

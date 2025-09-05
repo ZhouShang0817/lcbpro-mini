@@ -42,4 +42,5 @@ memcpy(dp,tp,sizeof(dp));
 printf("%lld\n",dp[0]);
 }
 }
-}EOF
+}
+EOF

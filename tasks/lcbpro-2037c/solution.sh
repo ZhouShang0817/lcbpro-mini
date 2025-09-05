@@ -13,8 +13,7 @@ void solve(){
         for(int i=n/2*2;i>=6;i-=2)cout<<i<<' ';
         cout<<"2 4 5 1 3 ";
         for(int i=7;i<=n;i+=2)cout<<i<<' ';
-        cout<<'
-';
+        cout<<endl;
     }
 }
  
@@ -23,4 +22,5 @@ int main(){
     int T;
     cin>>T;
     while(T--)solve();
-}EOF
+}
+EOF

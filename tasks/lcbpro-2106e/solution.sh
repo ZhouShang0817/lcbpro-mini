@@ -163,4 +163,5 @@ int main() {
         solve(); // Call the solve function for each test case.
     }
     return 0;
-}EOF
+}
+EOF

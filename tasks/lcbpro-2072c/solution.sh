@@ -137,4 +137,5 @@ int main() {
         std::cout << "\n"; // Print a newline at the end of the output for this test case.
     }
     return 0;
-}EOF
+}
+EOF

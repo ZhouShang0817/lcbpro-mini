@@ -66,4 +66,5 @@ int main(){
     while(t--){
         solveTestCase();
     }
-}EOF
+}
+EOF

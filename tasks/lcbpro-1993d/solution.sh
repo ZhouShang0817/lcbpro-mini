@@ -56,4 +56,5 @@ int main() {
 
         cout << hi << '\n';
     }
-}EOF
+}
+EOF

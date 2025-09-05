@@ -115,4 +115,5 @@ int main(){
 	int t;
 	scanf("%d",&t);
 	while(t--) solve();
-}EOF
+}
+EOF

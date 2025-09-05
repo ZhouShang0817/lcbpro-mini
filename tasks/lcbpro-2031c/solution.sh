@@ -26,4 +26,5 @@ int main()
 		}
 		cout<<endl;
 	}
-}EOF
+}
+EOF

@@ -143,4 +143,5 @@ int main()
             cout<<ans<<" \n"[i+1==n];
         }
     }
-}EOF
+}
+EOF

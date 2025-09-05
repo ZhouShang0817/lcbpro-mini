@@ -188,4 +188,5 @@ int main() {
         std::cout << total_count << "\n";
     }
     return 0;
-}EOF
+}
+EOF

@@ -82,4 +82,5 @@ int main()
         cout << (ok ? ops : -1) << '\n';
     }
     return 0;
-}EOF
+}
+EOF

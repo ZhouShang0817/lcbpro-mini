@@ -179,4 +179,5 @@ int main() {
 		std::cout << (lastans = get_val(u)) << '\n';
 	}
 	return 0;
-}EOF
+}
+EOF

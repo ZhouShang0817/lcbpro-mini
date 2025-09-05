@@ -232,4 +232,5 @@ int main() {
         solve(); // Solve the current test case
     }
     return 0; // Indicate successful execution
-}EOF
+}
+EOF

@@ -355,4 +355,5 @@ int main(){
         cout << answer[i] << (i+1 < (int)answer.size() ? ' ' : '\n');
     }
     return 0;
-}EOF
+}
+EOF

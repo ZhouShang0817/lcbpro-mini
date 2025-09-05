@@ -139,4 +139,5 @@ int main() {
         solve(); // Process and solve one test case.
     }
     return 0; // Indicate successful program execution.
-}EOF
+}
+EOF

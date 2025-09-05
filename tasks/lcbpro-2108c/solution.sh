@@ -145,4 +145,5 @@ int main(){
         cout << dp[n] << "\n";
     }
     return 0;
-}EOF
+}
+EOF

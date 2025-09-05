@@ -49,4 +49,5 @@ int main() {
         cout << (max_sz + 2) << "\n";
     }
     return 0;
-}EOF
+}
+EOF

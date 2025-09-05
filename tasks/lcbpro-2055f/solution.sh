@@ -187,4 +187,5 @@ int main()
         next:;
     }
     return 0;
-}EOF
+}
+EOF

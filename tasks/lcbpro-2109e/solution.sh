@@ -68,4 +68,5 @@ int main(){
         cout << dp[1][k] % MOD << "\n";
     }
     return 0;
-}EOF
+}
+EOF

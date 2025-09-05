@@ -59,4 +59,5 @@ signed main() {
     while (T--)
         solve();
     return 0;
-}EOF
+}
+EOF

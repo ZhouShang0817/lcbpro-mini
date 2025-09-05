@@ -37,4 +37,5 @@ int main(){
         for(LL i=1;i<=2*n;++i)sm[i]=0;
     }
     return 0;
-}EOF
+}
+EOF

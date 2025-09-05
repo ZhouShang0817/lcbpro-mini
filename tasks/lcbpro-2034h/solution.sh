@@ -66,4 +66,5 @@ int main()
 		for(int i:ans) cout<<i<<" ";cout<<"\n";
 	}
 	return 0;
-}EOF
+}
+EOF

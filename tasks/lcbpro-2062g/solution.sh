@@ -171,10 +171,11 @@ int main(){
 			}
 			if(!flag)break;
 		}
-		cout<<ansv[0].size()<<'\n';
-		for(i=0;i<ansv[0].size();i++)cout<<ansv[0][i]+1<<' '<<ansv[1][i]+1<<'\n';
+		cout<<ansv[0].size()<<endl;
+		for(i=0;i<ansv[0].size();i++)cout<<ansv[0][i]+1<<' '<<ansv[1][i]+1<<endl;
 		ansv[0].clear();
 		ansv[1].clear();
 	}
 	return 0;
-}EOF
+}
+EOF

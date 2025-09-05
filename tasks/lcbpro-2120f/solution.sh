@@ -107,4 +107,5 @@ int main() {
         cout << (sat.satisfiable() ? "Yes\n" : "No\n");
     }
     return 0;
-}EOF
+}
+EOF

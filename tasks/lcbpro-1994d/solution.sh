@@ -37,10 +37,8 @@ void solve(){
 			if(!f)break;
 		}
 	}
-	cout<<"YES"<<'
-';
-	for(int i=ans.size()-1;i>=0;i--)cout<<ans[i].first<<" "<<ans[i].second<<'
-';
+	cout<<"YES"<<endl;
+	for(int i=ans.size()-1;i>=0;i--)cout<<ans[i].first<<" "<<ans[i].second<<endl;
 }
 signed main(){
 	ios::sync_with_stdio(false);
@@ -49,4 +47,5 @@ signed main(){
 	cin>>t;
 	while(t--)solve();
 	return 0;
-}EOF
+}
+EOF

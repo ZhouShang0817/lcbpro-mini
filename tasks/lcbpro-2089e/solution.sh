@@ -124,4 +124,5 @@ namespace tokido_saya {
 }
 int main() {
 	return tokido_saya::main();
-}EOF
+}
+EOF

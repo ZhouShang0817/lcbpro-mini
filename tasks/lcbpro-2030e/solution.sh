@@ -207,4 +207,5 @@ int main() {
         std::cout << ANS << "\n"; // Output the final answer for the test case
     }
     return 0;
-}EOF
+}
+EOF

@@ -38,4 +38,5 @@ int main(){
         printf("%lld\n",an);
     }
 	return 0;
-}EOF
+}
+EOF

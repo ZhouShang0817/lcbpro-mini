@@ -132,4 +132,5 @@ int main(){
 
     cout << out;
     return 0;
-}EOF
+}
+EOF

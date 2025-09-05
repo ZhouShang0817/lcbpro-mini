@@ -71,4 +71,5 @@ int main() {
         if (ans < 0) ans += MOD;
         cout << ans << '\n';
     }
-}EOF
+}
+EOF

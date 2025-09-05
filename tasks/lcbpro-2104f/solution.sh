@@ -66,4 +66,5 @@ int main()
         cin >> n;
         cout << upper_bound(aux2.begin(), aux2.end(), n) - aux2.begin() << endl;              
     }
-}EOF
+}
+EOF

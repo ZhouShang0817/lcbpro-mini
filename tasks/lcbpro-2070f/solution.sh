@@ -95,4 +95,5 @@ int main()
     
     for(auto x : ans) cout << x / 2 << " ";
     cout << endl;
-}EOF
+}
+EOF

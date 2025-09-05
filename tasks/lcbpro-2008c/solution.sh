@@ -28,4 +28,5 @@ int main() {
         cout << max_len << endl;
     }
     return 0;
-}EOF
+}
+EOF

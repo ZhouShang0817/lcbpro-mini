@@ -27,4 +27,5 @@ int main() {
         cout << endl;
     }
     return 0;
-}EOF
+}
+EOF

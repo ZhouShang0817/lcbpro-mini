@@ -217,4 +217,5 @@ int main() {
         solve(); // Process each test case
     }
     return 0;
-}EOF
+}
+EOF

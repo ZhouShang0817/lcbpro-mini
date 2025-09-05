@@ -120,4 +120,5 @@ int main() {
         solve(); // Call the function that solves a single test case.
     }
     return 0; // Indicate successful program execution.
-}EOF
+}
+EOF

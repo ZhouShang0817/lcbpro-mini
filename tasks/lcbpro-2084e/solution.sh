@@ -195,4 +195,5 @@ int main() {
         cout << total_value << "\n"; // Output the final sum modulo 10^9 + 7
     }
     return 0;
-}EOF
+}
+EOF

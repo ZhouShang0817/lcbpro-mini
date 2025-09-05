@@ -179,4 +179,5 @@ int main() {
         std::cout << dsu.num_components << "\n";
     }
     return 0;
-}EOF
+}
+EOF

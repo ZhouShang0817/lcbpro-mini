@@ -32,4 +32,5 @@ int main() {
         cout << (k - best) << endl;
     }
     return 0;
-}EOF
+}
+EOF

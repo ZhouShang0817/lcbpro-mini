@@ -158,4 +158,5 @@ int main(){
         cout << totalGood << "\n";
     }
     return 0;
-}EOF
+}
+EOF

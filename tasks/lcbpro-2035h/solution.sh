@@ -42,4 +42,5 @@ signed main() {
 	int _; cin>>_;
 	while(_--) solve();
 	return 0;
-}EOF
+}
+EOF

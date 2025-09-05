@@ -71,4 +71,5 @@ int main(){
         cout << (possible ? "NO" : "YES") << "\n";
     }
     return 0;
-}EOF
+}
+EOF

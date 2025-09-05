@@ -126,4 +126,5 @@ int main(){
         }
         cout << '\n';
     }
-}EOF
+}
+EOF

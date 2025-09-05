@@ -45,4 +45,5 @@ int main() {
         Solve();
     }
     return 0;
-}EOF
+}
+EOF

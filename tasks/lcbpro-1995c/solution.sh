@@ -44,4 +44,5 @@ int main() {
 		}
 		cout << ans << endl;
 	}
-}EOF
+}
+EOF

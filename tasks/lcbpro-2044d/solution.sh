@@ -59,4 +59,5 @@ int main(){
             cout << b[i] << (i<n-1?" ":"\n");
         }
     }
-}EOF
+}
+EOF

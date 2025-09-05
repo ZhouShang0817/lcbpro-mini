@@ -67,4 +67,5 @@ int main() {
         process_test_case();
     }
     return 0;
-}EOF
+}
+EOF

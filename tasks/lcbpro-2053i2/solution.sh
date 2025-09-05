@@ -87,4 +87,5 @@ signed main()
                 }
                 printf("%lld\n",dp[n+2]);
         }
-}EOF
+}
+EOF

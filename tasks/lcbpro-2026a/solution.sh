@@ -13,4 +13,5 @@ int main() {
     long m = (x < y ? x : y);
     printf("0 0 %ld %ld\n0 %ld %ld 0\n", m, m, m, m);
   }
-}EOF
+}
+EOF

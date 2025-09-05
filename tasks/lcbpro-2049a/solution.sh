@@ -45,4 +45,5 @@ int main() {
         cout << ans << endl;
     }
     return 0;
-}EOF
+}
+EOF

@@ -90,4 +90,5 @@ int main() {
             cout << 0 << ' ' << bestH + i << '\n';
     }
     return 0;
-}EOF
+}
+EOF

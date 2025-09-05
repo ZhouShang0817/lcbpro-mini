@@ -148,4 +148,5 @@ int32_t main()
     auto elapsed = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
     cerr << "Time measured: " << elapsed.count() * 1e-9 << " seconds.\n"; 
     return 0;
-}EOF
+}
+EOF

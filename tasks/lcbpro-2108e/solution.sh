@@ -62,4 +62,5 @@ void solve() {
 int main() {
   l tc; scanf("%lld", &tc);
   while (tc--) solve();
-}EOF
+}
+EOF

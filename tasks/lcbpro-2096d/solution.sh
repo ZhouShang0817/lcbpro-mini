@@ -42,4 +42,5 @@ int main() {
         std::cout << s << " " << t_val << "\n";
     }
     return 0;
-}EOF
+}
+EOF

@@ -28,4 +28,5 @@ int main() {
         cout << (possible ? "YES" : "NO") << endl;
     }
     return 0;
-}EOF
+}
+EOF

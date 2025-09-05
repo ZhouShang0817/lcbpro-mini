@@ -47,4 +47,5 @@ signed main() {
 	int _; scanf("%d",&_);
 	while(_--) solve();
 	return 0;
-}EOF
+}
+EOF

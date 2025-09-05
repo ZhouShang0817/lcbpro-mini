@@ -70,4 +70,5 @@ int main() {
 
         cout << ans << '\n';
     }
-}EOF
+}
+EOF

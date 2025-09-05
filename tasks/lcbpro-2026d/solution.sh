@@ -42,4 +42,5 @@ signed main() {
         cout << calc(r) - calc(l - 1) << endl;
     }
     return 0;
-}EOF
+}
+EOF

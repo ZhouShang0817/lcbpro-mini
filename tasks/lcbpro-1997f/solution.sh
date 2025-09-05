@@ -169,4 +169,5 @@ int main() {
     std::cout << total_ways << std::endl;
 
     return 0; // Indicate successful execution.
-}EOF
+}
+EOF

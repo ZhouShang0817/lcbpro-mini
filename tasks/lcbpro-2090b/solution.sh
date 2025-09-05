@@ -53,4 +53,5 @@ int main() {
         solve();
     }
     return 0;
-}EOF
+}
+EOF

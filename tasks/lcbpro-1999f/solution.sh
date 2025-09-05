@@ -70,4 +70,5 @@ int main() {
         cout << total_sum << endl;
     }
     return 0;
-}EOF
+}
+EOF

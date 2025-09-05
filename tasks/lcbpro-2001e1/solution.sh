@@ -148,4 +148,5 @@ int main() {
         solve(); // Solve each test case
     }
     return 0;
-}EOF
+}
+EOF

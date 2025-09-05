@@ -65,4 +65,5 @@ void solve() {
 int main() {
     l t; scanf("%lld", &t);
     while (t--) solve();
-}EOF
+}
+EOF

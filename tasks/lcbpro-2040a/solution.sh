@@ -43,4 +43,5 @@ int main(){
             cout << "NO\n";
         }
     }
-}EOF
+}
+EOF

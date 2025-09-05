@@ -58,4 +58,5 @@ int main(){
 		get_g();
 		printf("%lld\n",(s(n,0)+1)%mod);
 	}
-}EOF
+}
+EOF

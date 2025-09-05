@@ -36,4 +36,5 @@ int main() {
         cout << solve(s) << "\n";
     }
     return 0;
-}EOF
+}
+EOF

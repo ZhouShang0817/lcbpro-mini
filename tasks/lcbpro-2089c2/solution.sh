@@ -103,4 +103,5 @@ int main() {
 		like();
 	}
 	return 0;
-}EOF
+}
+EOF

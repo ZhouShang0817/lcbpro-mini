@@ -149,4 +149,5 @@ int main(){
         cout << (foundBlock ? "Yes" : "No") << "\n";
     }
     return 0;
-}EOF
+}
+EOF

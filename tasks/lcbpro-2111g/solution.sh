@@ -109,4 +109,5 @@ int main(){
         cout << (ans ? "YES\n" : "NO\n");
     }
     cout.flush();
-}EOF
+}
+EOF

@@ -15,4 +15,5 @@ int main() {
         cout << max(n, m) + 1 << endl;
     }
     return 0;
-}EOF
+}
+EOF

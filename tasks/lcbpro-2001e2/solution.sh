@@ -41,4 +41,5 @@ int main(){
 		printf("%lld\n",o);
 	}
 	return 0;
-}EOF
+}
+EOF

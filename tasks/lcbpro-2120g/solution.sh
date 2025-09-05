@@ -98,4 +98,5 @@ int main(){
 			d[i]=0,r[i][0]=0,r[i][1]=0,v[i].clear();
 	}
 	return 0;
-}EOF
+}
+EOF

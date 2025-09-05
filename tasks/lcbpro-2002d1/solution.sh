@@ -197,4 +197,5 @@ int main() {
         solve(); // Solve each test case independently
     }
     return 0;
-}EOF
+}
+EOF

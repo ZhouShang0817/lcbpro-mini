@@ -70,4 +70,5 @@ int main(){
         cout << "\n";
     }
     return 0;
-}EOF
+}
+EOF

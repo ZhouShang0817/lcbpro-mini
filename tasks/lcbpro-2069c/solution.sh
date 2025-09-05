@@ -82,4 +82,5 @@ int main() {
         cout << dp3 << "\n"; // Print the result for the current test case.
     }
     return 0; // Indicate successful execution of the program.
-}EOF
+}
+EOF
