@@ -1,13 +1,19 @@
-# Ignore everything by default
-*
+# Ignore runs directory
+runs/
 
-# But don't ignore these files and directories
-!.gitignore
-!README.md
-!tasks/
-!tasks/**
-!templates/
-!templates/**
+# Ignore temporary and log files
+*.log
+*.cast
+__pycache__/
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # Within tasks/, ignore log files and temporary files
 tasks/**/*.log
