@@ -2,7 +2,7 @@
 
 Author: LiveCodeBench Pro Team <shz060@ucsd.edu>
 
-This dataset contains 599 competitive programming tasks that submit code to an external judge. Tasks range from lcbpro-1983a to lcbpro-2121h, covering Codeforces problems from contests 1983-2121.
+This dataset contains 517 competitive programming tasks that submit code to an external judge. Tasks range from lcbpro-1983a to lcbpro-2121h, covering Codeforces problems from contests 1983-2121.
 
 For each task, the agent writes `/app/main.cpp`. The harness posts the code to the judge and polls `GET /result/{sid}?short=1`. The task passes if the judge returns `passed=true`.
 
