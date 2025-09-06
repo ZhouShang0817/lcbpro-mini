@@ -52,7 +52,7 @@ def extract_problem_statement_from_original(task_name):
 
 def generate_task_from_config(task_name, output_dir, config_file="benchmark_config.json"):
     """Generate a task using templates and config data"""
-    templates_dir = Path("templates")
+    templates_dir = Path("template")
     output_dir = Path(output_dir)
     
     # Create output directory

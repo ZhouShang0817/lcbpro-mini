@@ -1,5 +1,5 @@
 {
-  "templates_dir": "templates",
+  "templates_dir": "template",
   "output_dir": "tasks",
   "tasks": [
     {
